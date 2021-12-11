@@ -1,4 +1,6 @@
 Spyder==2.3.8
 urlparse2
-BeautifulSoup
 requests
+beautifulsoup4
+jupyter
+pandas
