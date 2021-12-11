@@ -18,13 +18,19 @@ api = API(URL, "country")
 
 api.get_single_city("location")
 
-## Cost Calculation by distance for Transportaion
+---
+## Applying the Numbeo Scraper
+### EU Cities Cost of Living
 
-Decision tree model in scikit-learn is implemented.
-Decision tree is an appropriate model for a given problem.
-Interpret a tree diagram. Tuned a decision tree model and explained how tuning impacts the model.
-Advanced Machine Learning is used for *Predictions*
+`Author: Moises Mendes`
 
-```python 
-python transportation_prediction.py
-```
+
+Using the original code and some additional processing functions, 
+it is possible to retrieve general cost of living information for
+cities around the world. Here the example uses European cities.
+
+The code that generates the image bellow is available as a Jupyter 
+notebook at `notebooks/EU Cities Cost of Living Comparison.ipynb`. 
+An exploratory notebook is also available in the same `notebooks` folder.
+
+![EU cost of living](./img/eu_cities_cost_living.png)
