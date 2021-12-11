@@ -29,6 +29,14 @@ Using the original code and some additional processing functions,
 it is possible to retrieve general cost of living information for
 cities around the world. Here the example uses European cities.
 
+Please note that the presented values are an **estimated cost of living** 
+based on a few categories from the Numbeo website (that don't include
+many things and sometimes show one item value for comparison). Therefore, 
+it can serve as a **means of comparison** between average city cost, but 
+not as a reliable source of monthly cost of living. (For details of 
+specific items in each category, visit the 
+[Numbeo website](https://www.numbeo.com/cost-of-living/).)
+
 The code that generates the image bellow is available as a Jupyter 
 notebook at `notebooks/EU Cities Cost of Living Comparison.ipynb`. 
 An exploratory notebook is also available in the same `notebooks` folder.
